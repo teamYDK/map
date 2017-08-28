@@ -267,7 +267,7 @@ function initMap(){
 	
 	content:
 	'<div id= "img.ipicture">Username<br>Comment<br>'+
-	'<img scr="picture/Effel.JPG"><div>'
+	'<img scr="./picture/Effel.JPG"><div>'
 
 	
     });
