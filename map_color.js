@@ -1,4 +1,5 @@
 function initMap() {
+   
   // Styles a map in night mode.
     var map = new google.maps.Map(document.getElementById('map'), {
     center: {lat: 35.681, lng: 139.767},
@@ -113,5 +114,12 @@ function initMap() {
                 stylers: [{color: '#ffffff'}]
               }
             ]     
-  });
+    });
+
 }
+
+function map_information_loaded(){
+    example_func();
+}
+
+include('map_information.js');
